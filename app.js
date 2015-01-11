@@ -5,6 +5,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var users = require('./routes/users');
 var sms = require('./routes/sms');
+var application = require('./routes/app');
 var connectionString = 'mongodb://localhost:27017/SMSGateway';
 var mongoose = require('mongoose');
 var taskManager = require('./queue/task').TaskManager;
@@ -33,7 +34,7 @@ app.use(function (req, res, next) {
 
 app.use('/api/v1/users', users);
 app.use('/api/v1/sms', sms);
-
+app.use('/api/v1/application', application);
 /// catch 404 and forward to error handler
 app.use(function (req, res, next) {
     var err = new Error('Not Found');

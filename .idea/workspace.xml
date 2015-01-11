@@ -23,132 +23,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="sms.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/model/sms.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database/model/user.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59636873" vertical-offset="304" max-vertical-offset="1020">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sms.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="sms.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/sms.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2123" max-vertical-offset="2839">
-              <caret line="151" column="1" selection-start-line="151" selection-start-column="1" selection-end-line="151" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.53424656" vertical-offset="385" max-vertical-offset="1190">
+              <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
               <folding>
-                <element signature="n#!!block;n#addSMSCenter#0" expanded="true" />
-                <element signature="e#780#823#0" expanded="true" />
-                <element signature="e#837#1093#0" expanded="true" />
-                <element signature="e#965#1016#0" expanded="true" />
-                <element signature="e#1034#1081#0" expanded="true" />
-                <element signature="e#1111#1167#0" expanded="true" />
                 <element signature="n#!!block;n#getSMSCenterByName#0" expanded="true" />
-                <element signature="e#1371#1414#0" expanded="true" />
-                <element signature="e#1428#1479#0" expanded="true" />
-                <element signature="e#1526#1591#0" expanded="true" />
-                <element signature="n#!!block;n#getListOfSMSCenters#0" expanded="true" />
-                <element signature="e#1752#1795#0" expanded="true" />
-                <element signature="e#1814#1854#0" expanded="true" />
                 <element signature="n#!!block;n#changeSMSCStatus#0" expanded="true" />
-                <element signature="e#2100#2143#0" expanded="true" />
-                <element signature="e#2157#2208#0" expanded="true" />
-                <element signature="e#2226#2265#0" expanded="true" />
-                <element signature="n#!!block;n#changeSMSCNumber#0" expanded="true" />
-                <element signature="e#2512#2555#0" expanded="true" />
-                <element signature="e#2569#2620#0" expanded="true" />
-                <element signature="e#2638#2677#0" expanded="true" />
-                <element signature="n#!!block;n#sendSMS#0" expanded="true" />
-                <element signature="e#3076#3118#0" expanded="true" />
-                <element signature="e#3133#3310#0" expanded="true" />
-                <element signature="e#3187#3238#0" expanded="true" />
-                <element signature="e#3250#3299#0" expanded="true" />
                 <element signature="n#!!block;n#sendSMSByModuleName#0" expanded="true" />
-                <element signature="e#3643#3686#0" expanded="true" />
-                <element signature="e#3700#3751#0" expanded="true" />
-                <element signature="e#3775#4158#0" expanded="true" />
-                <element signature="e#3881#3931#0" expanded="true" />
-                <element signature="e#3946#4147#0" expanded="true" />
-                <element signature="e#4004#4063#0" expanded="true" />
-                <element signature="e#4075#4132#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="token.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/model/token.js">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-              <caret line="13" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2380" max-vertical-offset="5865">
+              <caret line="160" column="12" selection-start-line="160" selection-start-column="12" selection-end-line="160" selection-end-column="12" />
+              <folding>
+                <element signature="e#427#1476#0" expanded="true" />
+                <element signature="e#772#1408#0" expanded="true" />
+                <element signature="e#1015#1301#0" expanded="true" />
+                <element signature="n#!!block;n#disableOtherAccounts#0" expanded="true" />
+                <element signature="e#1778#1923#0" expanded="true" />
+                <element signature="n#!!block;n#signout#0" expanded="true" />
+                <element signature="e#2065#2455#0" expanded="true" />
+                <element signature="e#2212#2437#0" expanded="true" />
+                <element signature="n#!!block;n#signin#0" expanded="true" />
+                <element signature="e#2634#5459#0" expanded="true" />
+                <element signature="e#3120#5427#0" expanded="true" />
+                <element signature="e#4788#5359#0" expanded="true" />
+                <element signature="n#!!block;n#signupAdmin#0" expanded="true" />
+                <element signature="e#6647#6828#0" expanded="true" />
+                <element signature="n#!!block;n#getApplicationList#0" expanded="true" />
+                <element signature="e#6921#7168#0" expanded="true" />
+                <element signature="e#7057#7120#0" expanded="true" />
+                <element signature="n#!!block;n#getApplication#0" expanded="true" />
+                <element signature="e#7388#7445#0" expanded="true" />
+                <element signature="n#!!block;n#getApplicationById#0" expanded="true" />
+                <element signature="e#7610#7667#0" expanded="true" />
+                <element signature="n#!!block;n#getCurrentApplication#0" expanded="true" />
+                <element signature="n#!!block;n#addRoleToApplication#0" expanded="true" />
+                <element signature="e#7914#8502#0" expanded="true" />
+                <element signature="n#!!block;n#changeApplicationStatus#0" expanded="true" />
+                <element signature="e#8733#9006#0" expanded="true" />
+                <element signature="n#!!block;n#changePassword#0" expanded="true" />
+                <element signature="e#9265#9971#0" expanded="true" />
+                <element signature="n#!!block;n#changeApplicationPassword#0" expanded="true" />
+                <element signature="e#10253#10605#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1564">
+              <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="relax.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/smsc/relax.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
-              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-              <folding>
-                <element signature="e#750#938#0" expanded="true" />
-                <element signature="e#1083#1151#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modules.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/modules.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="baseModule.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/baseModule.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="867">
-              <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
-              <folding>
-                <element signature="e#130#298#0" expanded="true" />
-                <element signature="e#1375#1432#0" expanded="true" />
-                <element signature="e#1487#1810#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/queue/task.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="474" max-vertical-offset="1207">
-              <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
-              <folding>
-                <element signature="e#251#842#0" expanded="true" />
-                <element signature="e#450#537#0" expanded="true" />
-                <element signature="e#580#670#0" expanded="true" />
-                <element signature="e#885#1011#0" expanded="true" />
-                <element signature="e#1137#1748#0" expanded="true" />
-                <element signature="e#1315#1509#0" expanded="true" />
-                <element signature="e#1526#1633#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -177,7 +112,6 @@
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/routes/user.js" />
         <option value="$PROJECT_DIR$/routes/users.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/utility/logger.js" />
         <option value="$PROJECT_DIR$/utility/moduleUtility.js" />
         <option value="$PROJECT_DIR$/package.json" />
@@ -187,15 +121,21 @@
         <option value="$PROJECT_DIR$/modules/baseModule.js" />
         <option value="$PROJECT_DIR$/database/database.js" />
         <option value="$PROJECT_DIR$/queue/task.js" />
+        <option value="$PROJECT_DIR$/database/model/application.js" />
+        <option value="$PROJECT_DIR$/bin/www" />
+        <option value="$PROJECT_DIR$/routes/application.js" />
+        <option value="$PROJECT_DIR$/routes/a.js" />
+        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/sms.js" />
+        <option value="$PROJECT_DIR$/routes/app.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -438,15 +378,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2594086" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24925224" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16983524" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24851191" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14434524" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -455,6 +394,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -503,6 +443,142 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/database/model/sms.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/model/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1785">
+          <caret line="17" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="99" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2584" max-vertical-offset="7276">
+          <caret line="152" column="11" selection-start-line="152" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/sms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2123" max-vertical-offset="2839">
+          <caret line="151" column="1" selection-start-line="151" selection-start-column="1" selection-end-line="151" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/model/token.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="374">
+          <caret line="13" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/smsc/relax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="799">
+          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/modules.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="646">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/baseModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="1173">
+          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queue/task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="474" max-vertical-offset="1207">
+          <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/model/sms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/model/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="1020">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/sms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2123" max-vertical-offset="2839">
+          <caret line="151" column="1" selection-start-line="151" selection-start-column="1" selection-end-line="151" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/model/token.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="374">
+          <caret line="13" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/smsc/relax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="799">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/modules.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="646">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/baseModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="1173">
+          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queue/task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="474" max-vertical-offset="1207">
+          <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/model/sms.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="748">
           <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
           <folding />
@@ -545,72 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
           <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6560" max-vertical-offset="7276">
-          <caret line="415" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="422" selection-end-column="55" />
-          <folding>
-            <element signature="e#395#1362#0" expanded="false" />
-            <element signature="e#686#1294#0" expanded="false" />
-            <element signature="e#915#1187#0" expanded="false" />
-            <element signature="n#!!block;n#disableOtherAccounts#0" expanded="false" />
-            <element signature="e#1650#1795#0" expanded="false" />
-            <element signature="n#!!block;n#updateUserActivity#0" expanded="false" />
-            <element signature="n#!!block;n#signout#0" expanded="false" />
-            <element signature="e#2093#2483#0" expanded="false" />
-            <element signature="e#2240#2465#0" expanded="false" />
-            <element signature="n#!!block;n#signin#0" expanded="false" />
-            <element signature="e#2660#5500#0" expanded="false" />
-            <element signature="e#3120#5468#0" expanded="false" />
-            <element signature="e#4834#5400#0" expanded="false" />
-            <element signature="n#!!block;n#signup#0" expanded="false" />
-            <element signature="e#6135#6293#0" expanded="false" />
-            <element signature="n#!!block;n#signupAdmin#0" expanded="false" />
-            <element signature="e#6935#7093#0" expanded="false" />
-            <element signature="n#!!block;n#getUserList#0" expanded="false" />
-            <element signature="e#7253#7364#0" expanded="false" />
-            <element signature="n#!!block;n#getUser#0" expanded="false" />
-            <element signature="e#7622#7672#0" expanded="false" />
-            <element signature="n#!!block;n#getUserById#0" expanded="false" />
-            <element signature="e#7933#7983#0" expanded="false" />
-            <element signature="n#!!block;n#getCurrentUser#0" expanded="false" />
-            <element signature="n#!!block;n#addRoleToUser#0" expanded="false" />
-            <element signature="e#8378#8931#0" expanded="false" />
-            <element signature="n#!!block;n#changeUserStatus#0" expanded="false" />
-            <element signature="e#9142#9505#0" expanded="false" />
-            <element signature="n#!!block;n#getUserActivity#0" expanded="false" />
-            <element signature="e#9906#11378#0" expanded="false" />
-            <element signature="n#!!block;n#getUserActivityCount#0" expanded="false" />
-            <element signature="e#11621#11750#0" expanded="false" />
-            <element signature="n#!!block;n#changePassword#0" expanded="false" />
-            <element signature="e#12003#12695#0" expanded="false" />
-            <element signature="n#!!block;n#changeUserPassword#0" expanded="false" />
-            <element signature="e#12957#13295#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1258">
-          <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
-          <folding>
-            <element signature="e#890#1104#0" expanded="false" />
-            <element signature="e#1248#1326#0" expanded="false" />
-            <element signature="e#1738#1858#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utility/logger.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="9" column="57" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -618,7 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21368715" vertical-offset="0" max-vertical-offset="716">
           <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -626,7 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6927536" vertical-offset="100" max-vertical-offset="816">
           <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -634,125 +642,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33240223" vertical-offset="0" max-vertical-offset="716">
           <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/baseModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41880342" vertical-offset="588" max-vertical-offset="1173">
+          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/smsc/relax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding>
-            <element signature="e#750#938#0" expanded="true" />
-            <element signature="e#1083#1151#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/modules.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.49475524" vertical-offset="227" max-vertical-offset="799">
+          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/baseModule.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="867">
-          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
-          <folding>
-            <element signature="e#130#298#0" expanded="true" />
-            <element signature="e#1375#1432#0" expanded="true" />
-            <element signature="e#1487#1810#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/queue/task.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="474" max-vertical-offset="1207">
-          <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
-          <folding>
-            <element signature="e#251#842#0" expanded="true" />
-            <element signature="e#450#537#0" expanded="true" />
-            <element signature="e#580#670#0" expanded="true" />
-            <element signature="e#885#1011#0" expanded="true" />
-            <element signature="e#1137#1748#0" expanded="true" />
-            <element signature="e#1315#1509#0" expanded="true" />
-            <element signature="e#1526#1633#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/database.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18994413" vertical-offset="0" max-vertical-offset="3281">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-            <element signature="n#!!block;n#getSMSCenterByName#0;n#!!block;n#Database#0" expanded="true" />
-            <element signature="e#430#1044#0" expanded="true" />
-            <element signature="n#!!block;n#getSMSCenters#0;n#!!block;n#Database#0" expanded="true" />
-            <element signature="e#1168#1551#0" expanded="true" />
-            <element signature="n#!!block;n#createSMSCenter#0;n#!!block;n#Database#0" expanded="true" />
-            <element signature="n#!!block;n#insertSMSCToDatabase#0;n#!!block;n#Database#0" expanded="true" />
-            <element signature="e#2187#2530#0" expanded="true" />
-            <element signature="n#!!block;n#changeTheSMSCenterStatus#0;n#!!block;n#Database#0" expanded="true" />
-            <element signature="e#2809#3294#0" expanded="true" />
-            <element signature="e#2886#3282#0" expanded="true" />
-            <element signature="n#!!block;n#changeTheSMSCenterNumber#0;n#!!block;n#Database#0" expanded="true" />
-            <element signature="e#3572#4057#0" expanded="true" />
-            <element signature="e#3649#4045#0" expanded="true" />
-            <element signature="n#!!block;n#markAsSent#0;n#!!block;n#Database#0" expanded="true" />
-            <element signature="n#!!block;n#addSMSToOutbox#0;n#!!block;n#Database#0" expanded="true" />
-            <element signature="e#4518#4914#0" expanded="true" />
-            <element signature="n#!!block;n#addSMSToInbox#0;n#!!block;n#Database#0" expanded="true" />
-            <element signature="e#5326#5722#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/sms.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2123" max-vertical-offset="2839">
-          <caret line="151" column="1" selection-start-line="151" selection-start-column="1" selection-end-line="151" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!block;n#addSMSCenter#0" expanded="true" />
-            <element signature="e#780#823#0" expanded="true" />
-            <element signature="e#837#1093#0" expanded="true" />
-            <element signature="e#965#1016#0" expanded="true" />
-            <element signature="e#1034#1081#0" expanded="true" />
-            <element signature="e#1111#1167#0" expanded="true" />
-            <element signature="n#!!block;n#getSMSCenterByName#0" expanded="true" />
-            <element signature="e#1371#1414#0" expanded="true" />
-            <element signature="e#1428#1479#0" expanded="true" />
-            <element signature="e#1526#1591#0" expanded="true" />
-            <element signature="n#!!block;n#getListOfSMSCenters#0" expanded="true" />
-            <element signature="e#1752#1795#0" expanded="true" />
-            <element signature="e#1814#1854#0" expanded="true" />
-            <element signature="n#!!block;n#changeSMSCStatus#0" expanded="true" />
-            <element signature="e#2100#2143#0" expanded="true" />
-            <element signature="e#2157#2208#0" expanded="true" />
-            <element signature="e#2226#2265#0" expanded="true" />
-            <element signature="n#!!block;n#changeSMSCNumber#0" expanded="true" />
-            <element signature="e#2512#2555#0" expanded="true" />
-            <element signature="e#2569#2620#0" expanded="true" />
-            <element signature="e#2638#2677#0" expanded="true" />
-            <element signature="n#!!block;n#sendSMS#0" expanded="true" />
-            <element signature="e#3076#3118#0" expanded="true" />
-            <element signature="e#3133#3310#0" expanded="true" />
-            <element signature="e#3187#3238#0" expanded="true" />
-            <element signature="e#3250#3299#0" expanded="true" />
-            <element signature="n#!!block;n#sendSMSByModuleName#0" expanded="true" />
-            <element signature="e#3643#3686#0" expanded="true" />
-            <element signature="e#3700#3751#0" expanded="true" />
-            <element signature="e#3775#4158#0" expanded="true" />
-            <element signature="e#3881#3931#0" expanded="true" />
-            <element signature="e#3946#4147#0" expanded="true" />
-            <element signature="e#4004#4063#0" expanded="true" />
-            <element signature="e#4075#4132#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -764,19 +669,146 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/database/database.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3327338" vertical-offset="206" max-vertical-offset="1003">
+          <caret line="57" column="47" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="47" />
+          <folding>
+            <element signature="n#!!block;n#getSMSCenters#0;n#!!block;n#Database#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queue/task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/model/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33047944" vertical-offset="929" max-vertical-offset="1513">
+          <caret line="66" column="28" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/database/model/token.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="13" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.23287672" vertical-offset="0" max-vertical-offset="584">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/modules.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#174#1060#0" expanded="false" />
+            <element signature="e#253#1002#0" expanded="false" />
+            <element signature="e#553#994#0" expanded="false" />
+            <element signature="e#663#919#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utility/logger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26198632" vertical-offset="0" max-vertical-offset="584">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/model/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59636873" vertical-offset="304" max-vertical-offset="1020">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.32020548" vertical-offset="272" max-vertical-offset="1020">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11643836" vertical-offset="0" max-vertical-offset="584">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14554794" vertical-offset="0" max-vertical-offset="1275">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding>
+            <element signature="e#933#1147#0" expanded="false" />
+            <element signature="e#1335#1413#0" expanded="false" />
+            <element signature="e#1574#1719#0" expanded="false" />
+            <element signature="e#1825#1945#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1564">
+          <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2380" max-vertical-offset="5865">
+          <caret line="160" column="12" selection-start-line="160" selection-start-column="12" selection-end-line="160" selection-end-column="12" />
+          <folding>
+            <element signature="e#427#1476#0" expanded="true" />
+            <element signature="e#772#1408#0" expanded="true" />
+            <element signature="e#1015#1301#0" expanded="true" />
+            <element signature="n#!!block;n#disableOtherAccounts#0" expanded="true" />
+            <element signature="e#1778#1923#0" expanded="true" />
+            <element signature="n#!!block;n#signout#0" expanded="true" />
+            <element signature="e#2065#2455#0" expanded="true" />
+            <element signature="e#2212#2437#0" expanded="true" />
+            <element signature="n#!!block;n#signin#0" expanded="true" />
+            <element signature="e#2634#5459#0" expanded="true" />
+            <element signature="e#3120#5427#0" expanded="true" />
+            <element signature="e#4788#5359#0" expanded="true" />
+            <element signature="n#!!block;n#signupAdmin#0" expanded="true" />
+            <element signature="e#6647#6828#0" expanded="true" />
+            <element signature="n#!!block;n#getApplicationList#0" expanded="true" />
+            <element signature="e#6921#7168#0" expanded="true" />
+            <element signature="e#7057#7120#0" expanded="true" />
+            <element signature="n#!!block;n#getApplication#0" expanded="true" />
+            <element signature="e#7388#7445#0" expanded="true" />
+            <element signature="n#!!block;n#getApplicationById#0" expanded="true" />
+            <element signature="e#7610#7667#0" expanded="true" />
+            <element signature="n#!!block;n#getCurrentApplication#0" expanded="true" />
+            <element signature="n#!!block;n#addRoleToApplication#0" expanded="true" />
+            <element signature="e#7914#8502#0" expanded="true" />
+            <element signature="n#!!block;n#changeApplicationStatus#0" expanded="true" />
+            <element signature="e#8733#9006#0" expanded="true" />
+            <element signature="n#!!block;n#changePassword#0" expanded="true" />
+            <element signature="e#9265#9971#0" expanded="true" />
+            <element signature="n#!!block;n#changeApplicationPassword#0" expanded="true" />
+            <element signature="e#10253#10605#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/sms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53424656" vertical-offset="385" max-vertical-offset="1190">
+          <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!block;n#getSMSCenterByName#0" expanded="true" />
+            <element signature="n#!!block;n#changeSMSCStatus#0" expanded="true" />
+            <element signature="n#!!block;n#sendSMSByModuleName#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

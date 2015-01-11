@@ -7,7 +7,7 @@ var router = express.Router();
 var Database = require('../database/database').Database;
 var logger = require('../utility/logger');
 var taskManager = require('../queue/task').TaskManager;
-
+var applicationControl = require('./app');
 function addSMSCenter(req, res) {
     try {
         var name = req.body.name;
@@ -151,12 +151,12 @@ function sendSMSByModuleName(req, res){
     }
 }
 
-router.route('/addSMSCenter').post(addSMSCenter);
-router.route('/getSMSCenterByName').post(getSMSCenterByName);
-router.route('/getListOfSMSCenters').post(getListOfSMSCenters);
-router.route('/changeSMSCenterStatus').post(changeSMSCStatus);
-router.route('/changeSMSCenterNumber').post(changeSMSCNumber);
-router.route('/sendSMSById').post(sendSMS);
-router.route('/sendSMSByName').post(sendSMSByModuleName);
+router.route('/addSMSCenter').post(applicationControl.requireApplicationAuthentication, addSMSCenter);
+router.route('/getSMSCenterByName').post(applicationControl.requireApplicationAuthentication, getSMSCenterByName);
+router.route('/getListOfSMSCenters').post(applicationControl.requireApplicationAuthentication, getListOfSMSCenters);
+router.route('/changeSMSCenterStatus').post(applicationControl.requireApplicationAuthentication, changeSMSCStatus);
+router.route('/changeSMSCenterNumber').post(applicationControl.requireApplicationAuthentication, changeSMSCNumber);
+router.route('/sendSMSById').post(applicationControl.requireApplicationAuthentication, sendSMS);
+router.route('/sendSMSByName').post(applicationControl.requireApplicationAuthentication, sendSMSByModuleName);
 
 module.exports = router;

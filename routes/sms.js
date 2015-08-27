@@ -84,6 +84,7 @@ function changeSMSCNumber(req, res) {
     try {
         var name = req.body.name;
         var number = req.body.number;
+        console.log(name + ' : ' + number);
         Database().changeSMSCNumber(name, number, function (err) {
             res.send(err, 500);
         }, function () {
@@ -127,7 +128,6 @@ function sendSMSByModuleName(req, res){
     var body = req.body.body;
     console.log(name + " : " + to  + " : " + body);
     try{
-
         Database().getSMSCenterByName(name, function (err) {
             res.send(err, 500);
         }, function () {
@@ -146,7 +146,7 @@ function sendSMSByModuleName(req, res){
         });
     }
     catch(ex){
-        logger.error(ex);
+        console.log(ex);
         res.send(ex, 500);
     }
 }

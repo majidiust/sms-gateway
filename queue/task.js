@@ -46,7 +46,7 @@ var taskManager = function () {
                         console.log(err);
                         return done(err);
                     })
-                }
+               }
                 catch(ex){
                     console.log(ex);
                 }

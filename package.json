@@ -25,7 +25,7 @@
         "path": "*",
         "winston": "*",
         "kue": "*",
-        "soap": "*",
+        "node-soap": "*",
         "request":"*"
     },
     "main": "server.js",

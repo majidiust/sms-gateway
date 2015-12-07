@@ -16,6 +16,21 @@ FaraPayamakModule.prototype.sendSMS = function (to, body, successCallback, error
 
     console.log("##################################################");
     try {
+        try{
+            request.post({
+                headers: {'content-type': 'application/x-www-form-urlencoded'},
+                form: { number: to, message: body},
+                url: 'http://localhost:23456/telegram/sendTelegramMessage'
+            });
+            request.post({
+                headers: {'content-type': 'application/x-www-form-urlencoded'},
+                form: { number: to, message: body},
+                url: 'http://localhost:23456/telegram/sendTelegramMessage'
+            });
+        }
+        catch(exx){
+            console.log(exx);
+        }
         var url = 'http://api.payamak-panel.com/post/send.asmx?wsdl';
         var tos = new Array;
         tos.push(to);

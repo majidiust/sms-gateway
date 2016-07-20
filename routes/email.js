@@ -11,7 +11,7 @@ var EmailAddressRequiredError = new Error('email address required');
 
 var util =
 {
-    send_email : function (email, username, password ,templateName, to, subject, cc, fn)
+    send_email : function (email, username, password ,templateName, to, subject, cc, body, fn)
     {
         if (!to)
         {
@@ -29,7 +29,7 @@ var util =
                 return fn(err);
             }
 
-            template(templateName, to, subject, cc, function (err, html, text)
+            template(templateName, to, subject, cc, body, function (err, html, text)
             {
                 if (err)
                 {
@@ -51,7 +51,7 @@ var util =
                         cc: cc,
                         subject: subject,
                         html: html,
-                        text: text
+                        text: body
                     },
                     function (err, responseStatus)
                     {
@@ -75,7 +75,8 @@ function sendEmail(req, res) {
         var cc = req.body.subject;
         var from = req.body.from;
         var to = req.body.to;
-        util.send_email(from, username, password, 'email/free',  to, subject, cc, console.log);
+        var body = req.body.body;
+        util.send_email(from, username, password, 'email/free',  to, subject, cc, body, console.log);
         res.send("ok", 200);
     }
     catch (ex) {

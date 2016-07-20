@@ -30,7 +30,7 @@ var util =
             }
 
             var locals = {
-                from: email, to : to, subject: subject, cc: cc, body: body, username: username, password: password
+                from: email, to : to, subject: subject, cc: cc, text: body, username: username, password: password
             }
 
             template(templateName, locals, function (err, html, text)

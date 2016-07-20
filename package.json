@@ -27,7 +27,10 @@
         "kue": "*",
         "soap": "*",
         "request":"*",
-	"simple-telegram":"*"
+	"simple-telegram":"*",
+        "ejs": "*",
+        "email-templates": "^2.3.0",
+        "nodemailer": "*"
     },
     "main": "server.js",
     "repository": {

@@ -80,6 +80,7 @@ function sendEmail(req, res) {
         var from = req.body.from;
         var to = req.body.to;
         var body = req.body.body;
+        console.log(req.body);
         util.send_email(from, username, password, 'email/free',  to, subject, cc, body, console.log);
         res.send("ok", 200);
     }

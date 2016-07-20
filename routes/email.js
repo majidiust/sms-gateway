@@ -8,6 +8,7 @@ var path = require('path');
 var templatesDir = path.resolve(__dirname, '..', 'templates');
 var emailTemplates = require('email-templates');
 var EmailAddressRequiredError = new Error('email address required');
+var EmailSubjectRequiredError = new Error('email address required');
 
 var util =
 {
@@ -19,7 +20,7 @@ var util =
         }
         if (!subject)
         {
-            return fn(EmailAddressRequiredError);
+            return fn(EmailSubjectRequiredError);
         }
 
         emailTemplates(templatesDir, function (err, template)

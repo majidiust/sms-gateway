@@ -80,6 +80,7 @@ function signout(req, res) {
 function signin(req, res) {
     var userName = req.body.username;
     var password = req.body.password;
+console.log(userName + " : " + password);
     userModel.findOne({ username: userName }, function (err, user) {
         if (err) {
             console.log(err);

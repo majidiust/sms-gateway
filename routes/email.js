@@ -69,7 +69,6 @@ var util =
 
 function sendEmail(req, res) {
     try {
-        var name = req.body.email;
         var username = req.body.username;
         var password = req.body.password;
         var subject = req.body.subject;
@@ -77,6 +76,7 @@ function sendEmail(req, res) {
         var from = req.body.from;
         var to = req.body.to;
         util.send_email(from, username, password, 'email/free',  to, subject, cc, console.log);
+        res.send("ok", 200);
     }
     catch (ex) {
         res.send(ex, 500);

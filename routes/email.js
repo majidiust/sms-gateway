@@ -29,7 +29,11 @@ var util =
                 return fn(err);
             }
 
-            template(templateName, to, subject, cc, body, function (err, html, text)
+            var locals = {
+                from: email, to : to, subject: subject, cc: cc, body: body, username: username, password: password
+            }
+
+            template(templateName, locals, function (err, html, text)
             {
                 if (err)
                 {
@@ -39,19 +43,19 @@ var util =
                     service: 'gmail',
                     auth:
                     {
-                        user: username,
-                        pass: password
+                        user: locals.username,
+                        pass: locals.password
                     }
                 }));
 
                 transport.sendMail(
                     {
-                        from: email,
-                        to: to,
-                        cc: cc,
-                        subject: subject,
+                        from: locals.email,
+                        to: locals.to,
+                        cc: locals.cc,
+                        subject: locals.subject,
                         html: html,
-                        text: body
+                        text: text
                     },
                     function (err, responseStatus)
                     {

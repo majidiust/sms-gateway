@@ -76,7 +76,7 @@ function sendEmail(req, res) {
         var cc = req.body.subject;
         var from = req.body.from;
         var to = req.body.to;
-        util.send_email(from, username, password, 'email/free',  to, subject, console.log);
+        util.send_email(from, username, password, 'email/free',  to, subject, cc, console.log);
     }
     catch (ex) {
         res.send(ex, 500);
